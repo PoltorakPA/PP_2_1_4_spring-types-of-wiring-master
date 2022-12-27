@@ -7,7 +7,8 @@ import org.springframework.stereotype.Component;
 public class Ocean1 {
 
     private final Island2 island;
-@Autowired
+
+    @Autowired
     public Ocean1(Island2 island) {
         this.island = island;
     }
